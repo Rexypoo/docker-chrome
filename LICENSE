@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 Rexypoo
+Copyright (c) 2019 Rexypoo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Inspiration from the work of Jessie Frazelle.
+https://github.com/jessfraz/dockerfiles
+
+Google Chrome is a product of Google, Inc. All rights reserved.
+The author makes no claims of ownership to Google Chrome.
+You are encouraged to review the Google Chrome terms of service:
+https://www.google.com/chrome/privacy/eula_text.html
