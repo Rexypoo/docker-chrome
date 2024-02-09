@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '48 22 * * *'
   workflow_dispatch:
+  issue_comment:
 
 jobs:
   push_to_registry:
