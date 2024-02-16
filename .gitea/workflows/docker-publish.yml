@@ -6,6 +6,7 @@ on:
     - push:
         branches:
           - "main"
+    - issue_comment:
 
 jobs:
   push_to_registry:
