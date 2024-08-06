@@ -15,9 +15,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
 
-      - name: Install Docker
-        run: curl -fsSL https://get.docker.com | sh
-
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
@@ -28,11 +25,12 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.REPOSITORY }}
+          images: rexypoo/chrome
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
+          Platforms: linux/amd64
           push: true
-          tags: ${{ vars.REPOSITORY }}:latest
+          tags: rexypoo/chrome:latest
